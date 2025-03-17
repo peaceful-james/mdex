@@ -20,7 +20,8 @@ defmodule MDEx.Types.ExtensionOptions do
             subscript: false,
             spoiler: false,
             greentext: false,
-            alerts: false
+            alerts: false,
+            image_url_rewriter: nil
 end
 
 defmodule MDEx.Types.ParseOptions do
